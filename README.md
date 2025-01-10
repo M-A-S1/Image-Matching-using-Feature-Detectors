@@ -19,7 +19,7 @@ Ensure you have the following packages installed:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/M-A-S1/Image-Matching-using-Feature-Detectors.git
    ```
 2. Navigate to the project folder:
    ```bash
@@ -38,7 +38,7 @@ Ensure you have the following packages installed:
 ## Usage
 1. Run the Python script:
    ```bash
-   python image_matching_gui.py
+   python app.py
    ```
 2. Browse and select a query image.
 3. The dataset folder path is hardcoded. Ensure the dataset is available at the specified location.
@@ -53,9 +53,6 @@ The GUI will display the matched features between the query image and the best-m
 
 ## Contributing
 Contributions are welcome! Feel free to submit pull requests or report issues.
-
-## License
-This project is licensed under the MIT License.
 
 ## Acknowledgments
 - OpenCV for the powerful computer vision tools.
